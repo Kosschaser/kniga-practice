@@ -1,0 +1,61 @@
+.book__wrap{
+	width: 63%;
+	float: left;
+	position: relative;
+}
+.book__m{
+	margin: 0 auto;
+}
+.book__item{
+	max-width: 25%;
+	display: inline-block;
+}
+.book__row{
+	margin: 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.book__main-header{
+	color: #000000;
+	font-size: 14px;
+	font-size: 1.3vw;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+}
+.book__main-header--wrap{
+	margin: 0.5rem 0 0.5rem 0;
+}
+.book__price{
+	color: #f61e4d;
+	font-size: 1.2em;
+	font-size: 2vw;
+}
+	.book__price span{
+		font-weight: 900;
+		font-size: 0.8em;
+	}
+.book__buy{
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background-color: #f61e4d;
+	font-size: 2vw;
+	line-height: 30px;
+}
+.ind-order__wrap{
+	width: 100%;
+	position: absolute;
+	margin-bottom: 20px;
+}
+.ind-order__style{
+	background-color: #f61e4d;
+	color: #fff;
+	padding: 0.5rem 0 0.5rem 0;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+	font-size: 1em;
+}
